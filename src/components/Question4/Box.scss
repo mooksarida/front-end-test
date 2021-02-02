@@ -1,0 +1,11 @@
+.box {
+    flex: 1;
+    margin: 1px;
+    background-color: #e4c8b1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    & .box-content{
+        margin: auto;
+    }
+}
